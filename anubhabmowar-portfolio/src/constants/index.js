@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.png";
+import project1 from "../assets/project-1.png";
+import project2 from "../assets/project-2.png";
+import project3 from "../assets/project-3.png";
+import project4 from "../assets/project-4.png";
 
 export const EDUCATION_CONTENT =[
     {
@@ -30,12 +30,6 @@ export const EXPERIENCES = [
     company: "SYNC INTERNS",
     description: `used python and it's libraries and tools like spacy and tkinter to develop small utility apps and simple chatbots.`,
     technologies: ["Python", "Spacy", "tkinter", "APIs"],
-  
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
 
