@@ -3,6 +3,8 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
 const App = () => {
   return (
     <div className="overflow-hidden bg-neutral-950 text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900 ">
@@ -14,6 +16,8 @@ const App = () => {
       <Hero />
       <About />
       <Technologies />
+      <Education />
+      <Experience />
     </div>
   );
 };

@@ -4,6 +4,9 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { BiLogoMongodb } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { TbBrandThreejs } from "react-icons/tb";
+import { RiTailwindCssFill } from "react-icons/ri";
 const Technologies = () => {
   return (
     <div className='border-b border-neutral-800 pb-24'>
@@ -25,17 +28,14 @@ const Technologies = () => {
                 <FaNodeJs className='text-4xl text-[#3c873a]' />
             </div> 
             <div className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <FaNodeJs className='text-4xl text-[#3c873a]' />
+                <BiLogoPostgresql className='text-4xl text-[#336791]' />
             </div> 
             <div className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <FaNodeJs className='text-4xl text-[#3c873a]' />
+                <TbBrandThreejs className='text-4xl text-white' />
             </div> 
             <div className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <FaNodeJs className='text-4xl text-[#3c873a]' />
+                <RiTailwindCssFill className='text-4xl text-[#06b6d4]' />
             </div> 
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <FaNodeJs className='text-4xl text-[#3c873a]' />
-            </div>   
             
         </div>
     </div>
