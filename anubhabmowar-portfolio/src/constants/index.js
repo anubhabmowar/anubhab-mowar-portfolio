@@ -6,8 +6,9 @@ import project4 from "../assets/project-4.png";
 export const EDUCATION_CONTENT =[
     {
         year: "2023-2027",
-        degree: "Bachelor of Science(B.S) in Data Science and Application",
-        institution: "Indian Institute of Technology, Madras",    
+        degree: "Bachelor of Science(B.S)" ,
+        branch:" Data Science and Application",
+        institution: "Indian Institute of Technology, Madras (IITM)",    
     },
 ];
 
@@ -39,7 +40,8 @@ export const PROJECTS = [
     image: project1,
     description:
       " a modern landing page using React JS,Three JS,React three fibre along with Tailwind CSS for styling and GSAP for animationsR",
-    technologies: ["React","Three JS","React Three Fiber","GSAP", "Tailwind CSS"],
+    technologies: ["React","Three JS","React Three Fiber","Tailwind CSS","GSAP"],
+    link: "https://iphone-3d-website-one.vercel.app/"
   },
   {
     title: " Exoape-Clone (React App)",
@@ -47,6 +49,7 @@ export const PROJECTS = [
     description:
       " a portfolio website using React JS, GSAP, Tailwind CSS, and Framer Motion to implement smooth animations and scroll effects.",
     technologies: ["React", "GSAP", "Tailwind CSS", "Framer Motion"],
+    link:"https://exoape-clone-one.vercel.app/"
   },
   {
     title: " Movixer (React App)",
@@ -54,6 +57,7 @@ export const PROJECTS = [
     description:
       " a movie browsing app using Tailwind CSS, Redux, React Player, and the TMDB API to showcase trailers and detailed information on movies, TV shows, and celebrities.",
     technologies: ["React", "Tailwind CSS", "Redux", "React Player", "TMDB API"],
+    link:"https://movixer-website.vercel.app/"
   },
   {
     title: " OBYS Agency Clone",
@@ -61,6 +65,7 @@ export const PROJECTS = [
     description:
       " a portfolio website using GSAP, Locomotive JS, and Sherry JS for smooth animations and DOM manipulation",
     technologies: ["GSAP", "Locomotive JS", "Sherry JS"],
+    link:"https://anubhabmowar.github.io/obys-agency-website/"
   },
 ];
 
