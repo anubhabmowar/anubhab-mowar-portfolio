@@ -10,9 +10,15 @@ const NavBar = () => {
         <img src={logo} alt="" className="w-full h-full rounded-full" />
       </div>
       <div className="flex items-center gap-4">
-        <Falinkedin className="w-6 h-6 text-white" />
-        <FaGithub className="w-6 h-6 text-white " />
-        <FaInstagram className="w-6 h-6 text-white" />
+        <link href="https://www.linkedin.com/in/anubhab-mowar/">
+          <Falinkedin className="w-6 h-6 text-white" />
+        </link>
+        <link href="https://github.com/AnubhabMowar">
+          <FaGithub className="w-6 h-6 text-white " />
+        </link>
+        <link href="https://www.instagram.com/anubhab_mowar/">
+          <FaInstagram className="w-6 h-6 text-white" />
+        </link>
       </div>
     </nav>
   );
