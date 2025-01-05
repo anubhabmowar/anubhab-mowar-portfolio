@@ -3,7 +3,13 @@ import { HERO_CONTENT } from "../constants";
 import profile from "../assets/profile.jpg";
 import {motion} from "framer-motion"
 const Hero = () => {
- const container =(delay)=>({ 
+  const downloadFile = () => {
+    const link = document.createElement('a');
+    link.href = 'src/assets/AnubhabMowarResume.pdf';
+    link.download = 'AnubhabMowarResume.pdf';
+    link.click();
+  }; 
+  const container =(delay)=>({ 
   hidden: { opacity: 0,x:-100 },
   visible: {
     opacity: 1,
@@ -39,7 +45,15 @@ const Hero = () => {
             variants={container(1)}
             className="my-2 max-w-xl py-6 font-light tracking-tighter">
               {HERO_CONTENT}
-            </motion.p>
+              </motion.p>
+              <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={container(1.5)}
+              className=" mb-6">
+          <div className="group relative w-fit transition-transform duration-300 active:scale-95"><button onClick={downloadFile} className="relative z-10 rounded-lg bg-gradient-to-br from-indigo-500 to-fuchsia-500 p-0.5 duration-300 group-hover:scale-110"><span className="block rounded-md bg-slate-950 px-4 py-2 font-semibold text-slate-100 duration-300 group-hover:bg-slate-950/50 group-hover:text-slate-50 group-active:bg-slate-950/80">Resume</span></button><span className="pointer-events-none absolute -inset-4 z-0 transform-gpu rounded-2xl bg-gradient-to-br from-indigo-500 to-fuchsia-500 opacity-30 blur-xl transition-all duration-300 group-hover:opacity-90 group-active:opacity-50"></span>
+          </div>
+          </motion.div>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
