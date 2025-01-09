@@ -3,6 +3,7 @@ import logo from "../assets/logo.png";
 import { FaLinkedinIn as Falinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 const NavBar = () => {
   return (
     <nav className="w-screen h-[75px]  flex items-center justify-between py-6 px-4">
@@ -18,6 +19,9 @@ const NavBar = () => {
         </a>
         <a href="https://www.instagram.com/anubhab_mowar/" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="w-6 h-6 text-white" />
+        </a>
+        <a href="https://x.com/Anubhab_Mowar" target="_blank" rel="noopener noreferrer">
+          <FaXTwitter className="w-6 h-6 text-white" />
         </a>
       </div>
     </nav>
