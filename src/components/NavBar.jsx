@@ -11,16 +11,35 @@ const NavBar = () => {
         <img src={logo} alt="" className="w-full h-full rounded-full" />
       </div>
       <div className="flex items-center gap-4">
-        <a href="https://www.linkedin.com/in/anubhab-mowar/" target="_blank" rel="noopener noreferrer">
-          <Falinkedin className="w-6 h-6 text-white" />
+        <a
+          href="https://www.linkedin.com/in/anubhab-mowar/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Falinkedin className="w-6 h-6 text-white hover:shadow-xl hover:shadow-purple-500" />
         </a>
-        <a href="https://github.com/AnubhabMowar" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://github.com/AnubhabMowar"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:shadow-xl hover:shadow-purple-500"
+        >
           <FaGithub className="w-6 h-6 text-white " />
         </a>
-        <a href="https://www.instagram.com/anubhab_mowar/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.instagram.com/anubhab_mowar/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:shadow-xl hover:shadow-purple-500"
+        >
           <FaInstagram className="w-6 h-6 text-white" />
         </a>
-        <a href="https://x.com/Anubhab_Mowar" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://x.com/Anubhab_Mowar"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:shadow-xl hover:shadow-purple-500"
+        >
           <FaXTwitter className="w-6 h-6 text-white" />
         </a>
       </div>

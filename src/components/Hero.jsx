@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 const Hero = () => {
   const downloadFile = () => {
     const link = document.createElement('a');
-    link.href = 'src/assets/AnubhabMowarResume.pdf';
+    link.href = 'public/AnubhabMowarResume .pdf';
     link.download = 'AnubhabMowarResume.pdf';
     link.click();
   }; 
