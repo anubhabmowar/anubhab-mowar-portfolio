@@ -2,12 +2,12 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BiLogoMongodb } from "react-icons/bi";
-import { SiExpress } from "react-icons/si";
+import { SiExpo, SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbBrandThreejs } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { delay, motion } from "framer-motion";
+import {  motion } from "framer-motion";
 
 const Technologies = () => {
   const iconvariants = (duration,delay) => ({
@@ -100,6 +100,14 @@ const Technologies = () => {
     className="rounded-2xl border-4 border-neutral-800 p-4"
   >
     <RiTailwindCssFill className="text-4xl text-[#06b6d4]" />
+  </motion.div>
+  <motion.div
+    variants={iconvariants(2,0)}
+    initial="initial"
+    animate="animate"
+    className="rounded-2xl border-4 border-neutral-800 p-4"
+  >
+    <SiExpo className="text-4xl text-white" />
   </motion.div>
 </motion.div>
 
