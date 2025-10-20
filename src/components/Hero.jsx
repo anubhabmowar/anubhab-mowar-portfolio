@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile-pic.png";
 import {motion} from "framer-motion"
 const Hero = () => {
   const downloadFile = () => {
@@ -57,7 +57,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center  mt-4 h-[400px]">
+          <div className="flex justify-center  mt-16 h-[400px]">
             <motion.img
             initial={{
               opacity: 0,
