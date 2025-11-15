@@ -1,7 +1,7 @@
 import { FaReact, FaNodeJs, FaAws } from "react-icons/fa";
 import { TbBrandNextjs, TbBrandReactNative, TbBrandThreejs, TbSql } from "react-icons/tb";
 import { BiLogoMongodb, BiLogoPostgresql } from "react-icons/bi";
-import { SiExpo, SiExpress, SiPandas, SiPytorch, SiScikitlearn, SiTableau } from "react-icons/si";
+import { SiExpo, SiExpress, SiPandas, SiScikitlearn, SiTableau } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import zustand from "../assets/zustand.webp";
 import powerbi from "../assets/powerbi.png";
