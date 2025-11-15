@@ -1,4 +1,3 @@
-import React from "react";
 import { EDUCATION_CONTENT } from "../constants";
 import {motion} from "framer-motion"
 const Education = () => {
