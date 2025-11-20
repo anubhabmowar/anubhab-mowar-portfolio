@@ -3,6 +3,7 @@ import { FaLinkedinIn as Falinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { ImFacebook } from "react-icons/im";
 const NavBar = () => {
   return (
     <nav className="w-screen h-[75px]  flex items-center justify-between py-6 px-4">
@@ -10,6 +11,14 @@ const NavBar = () => {
         <img src={logo} alt="" className="w-full h-full rounded-full" />
       </div>
       <div className="flex items-center gap-4">
+        <a
+          href="https://www.facebook.com/anubhabmowar31"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:shadow-xl hover:shadow-purple-500"
+        >
+          <ImFacebook className="w-6 h-6 text-white" />
+        </a>
         <a
           href="https://www.linkedin.com/in/anubhab-mowar/"
           target="_blank"
