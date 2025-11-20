@@ -2,7 +2,7 @@ import project1 from "../assets/project-1.png";
 import project2 from "../assets/project-2.png";
 import project3 from "../assets/project-3.png";
 import project4 from "../assets/project-4.png";
-import project5 from "../assets/project-5.png";
+
 export const EDUCATION_CONTENT = [
   {
     year: "2023-2027",
@@ -77,14 +77,6 @@ export const PROJECTS = [
       " a portfolio website using GSAP, Locomotive JS, and Sherry JS for smooth animations and DOM manipulation",
     technologies: ["GSAP", "Locomotive JS", "Sherry JS"],
     link: "https://anubhabmowar.github.io/obys-agency-website/",
-  },
-  {
-    title: "CollegeTips Gallery (Next App)",
-    image: project5,
-    description:
-      " a simple photo gallery application built with Next js and TypeScript,with photo categorisation and category filter.",
-    technologies: ["Next JS", "Tailwind CSS", "TypeScript"],
-    link: "https://college-tips-gallery-two.vercel.app/",
   },
 ];
 
