@@ -7,19 +7,12 @@ const texts = ["Full Stack Developer", "App Developer", "Data Scientist"];
 
 const Hero = () => {
   const [index, setIndex] = useState(0);
-  const [isHovered, setIsHovered] = useState(false);
-
   useEffect(() => {
-    let interval;
-    if (isHovered) {
-      interval = setInterval(() => {
-        setIndex((prevIndex) => (prevIndex + 1) % texts.length);
-      }, 1500); // Change text every 1.5 seconds
-    } else {
-      setIndex(0); // Reset to the first text when not hovering
-    }
+    const interval = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex + 1) % texts.length);
+    }, 2500); // Change text every 2.5 seconds
     return () => clearInterval(interval);
-  }, [isHovered]);
+  }, []);
 
   const downloadFile = () => {
     const link = document.createElement("a");
@@ -57,9 +50,7 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
               variants={container(0.5)}
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
-              className="h-16 cursor-pointer" // Set a fixed height to avoid layout shift
+              className="h-16" // Set a fixed height to avoid layout shift
               style={{ perspective: "1000px" }} // For the 3D effect
             >
               <AnimatePresence mode="wait">
