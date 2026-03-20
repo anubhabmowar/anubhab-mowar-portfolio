@@ -2,6 +2,7 @@ import project1 from "../assets/project-1.png";
 import project2 from "../assets/project-2.png";
 import project3 from "../assets/project-3.png";
 import project4 from "../assets/project-4.png";
+import project5 from "../assets/project-5.png";
 
 export const EDUCATION_CONTENT = [
   {
@@ -35,7 +36,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: " Iphone-3d-website (React App)",
+    title: " Iphone-3d-website",
     image: project1,
     description:
       " a modern landing page using React JS,Three JS,React three fibre along with Tailwind CSS for styling and GSAP for animationsR",
@@ -49,7 +50,7 @@ export const PROJECTS = [
     link: "https://iphone-3d-website-one.vercel.app/",
   },
   {
-    title: " Exoape-Clone (React App)",
+    title: " Exoape-Clone",
     image: project2,
     description:
       " a portfolio website using React JS, GSAP, Tailwind CSS, and Framer Motion to implement smooth animations and scroll effects.",
@@ -57,7 +58,7 @@ export const PROJECTS = [
     link: "https://exoape-clone-one.vercel.app/",
   },
   {
-    title: " Movixer (React App)",
+    title: " Movixer",
     image: project3,
     description:
       " a movie browsing app using Tailwind CSS, Redux, React Player, and the TMDB API to showcase trailers and detailed information on movies, TV shows, and celebrities.",
@@ -77,6 +78,14 @@ export const PROJECTS = [
       " a portfolio website using GSAP, Locomotive JS, and Sherry JS for smooth animations and DOM manipulation",
     technologies: ["GSAP", "Locomotive JS", "Sherry JS"],
     link: "https://anubhabmowar.github.io/obys-agency-website/",
+  },
+  {
+    title: "Billkaro:GST invoice under 60 sec",
+    image: project5,
+    description:
+      "Billkaro is a GST invoice generation platform that allows users to create GST compliant invoices quickly and easily.targetted towards small businesses and freelancers.",
+    technologies: ["NEXT.js", "Auth.js", "Resend", "postgresql", "Drizzle ORM"],
+    link: "https://www.billkaro.app",
   },
 ];
 
