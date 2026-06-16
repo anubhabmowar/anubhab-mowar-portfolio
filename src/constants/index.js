@@ -84,7 +84,7 @@ export const PROJECTS = [
     image: project5,
     description:
       "Billkaro is a GST invoice generation platform that allows users to create GST compliant invoices quickly and easily.targetted towards small businesses and freelancers.",
-    technologies: ["NEXT.js", "Auth.js", "Resend", "postgresql", "Drizzle ORM"],
+    technologies: ["Next.js", "Razorpay", "Supabase"],
     link: "https://www.billkaro.app",
   },
 ];
