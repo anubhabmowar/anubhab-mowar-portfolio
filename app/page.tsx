@@ -1,5 +1,6 @@
 import Navbar from "@/components/navbar";
 import KineticGrid from "@/components/ui/kinetic-grid";
+import Hero from "@/components/hero";
 
 export default function Home() {
   return (
@@ -8,13 +9,7 @@ export default function Home() {
         <Navbar />
       </header>
       <main className="flex min-h-dvh flex-col items-center justify-center px-margin">
-        <p className="text-label-caps text-primary">Anubhab Mowar</p>
-        <h1 className="mt-gutter text-headline-xl text-on-background">
-          Move your cursor
-        </h1>
-        <p className="mt-unit max-w-md text-center text-body-lg text-on-surface-variant">
-          Interactive grid with warp, glow, and click ripples.
-        </p>
+        <Hero />
       </main>
     </KineticGrid>
   );

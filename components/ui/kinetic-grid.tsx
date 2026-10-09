@@ -283,19 +283,18 @@ export default function KineticGrid({
     [getWarpedPoint, globalColor],
   );
 
-  const animate = useCallback(
-    (now: number) => {
-      const m = mouseRef.current;
-      const t = targetMouseRef.current;
+  function frame(now: number) {
+    const m = mouseRef.current;
+    const t = targetMouseRef.current;
 
-      m.x = lerpN(m.x, t.x, LERP_SPEED);
-      m.y = lerpN(m.y, t.y, LERP_SPEED);
+    m.x = lerpN(m.x, t.x, LERP_SPEED);
+    m.y = lerpN(m.y, t.y, LERP_SPEED);
 
-      draw(now);
-      rafRef.current = requestAnimationFrame(animate);
-    },
-    [draw],
-  );
+    draw(now);
+    rafRef.current = requestAnimationFrame(frame);
+  }
+
+  const animate = frame;
 
   useEffect(() => {
     const canvas = canvasRef.current;
